@@ -11,7 +11,7 @@
         - Each line is separated into 2 elements by ```\t```:
 
             ```python
-            set_id"\t"Japanese_sentence
+            'set_id"\t"Japanese_sentence'
             ```
 
         - The 'set_id' is defined in our dataset for aligning sentences between Japanese and English.
@@ -20,7 +20,7 @@
         - Each line is separated into 6 elements separated by ```\t```:
 
             ```python
-            set_id"\t"article_title"\t"grade_level"\t"readability_level"\t"paragraph_index"\t"sentence_index_within_the_paragraph
+            'set_id"\t"article_title"\t"grade_level"\t"readability_level"\t"paragraph_index"\t"sentence_index_within_the_paragraph'
             ```
 
         - The 'set_id' is shared between ja.txt and en.txt. The other factors are the same in the Newsela corpus.
