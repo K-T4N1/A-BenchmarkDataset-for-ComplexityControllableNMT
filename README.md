@@ -36,3 +36,20 @@ Please wait until the permission is granted.
 
 - To use our dataset, please first obtain access to the [Newsela corpus](https://newsela.com/data/) and then extract the English sentences identified by en.txt.
 - Please use Python 3 to run our codes.
+
+## Citation
+
+```txt
+@InProceedings{tani-EtAl:2022:LREC,
+  author    = {Tani, Kazuki  and  Yuasa, Ryoya  and  Takikawa, Kazuki  and  Tamura, Akihiro  and  Kajiwara, Tomoyuki  and  Ninomiya, Takashi  and  Kato, Tsuneo},
+  title     = {A Benchmark Dataset for Multi-Level Complexity-Controllable Machine Translation},
+  booktitle      = {Proceedings of the Language Resources and Evaluation Conference},
+  month          = {June},
+  year           = {2022},
+  address        = {Marseille, France},
+  publisher      = {European Language Resources Association},
+  pages     = {6744--6752},
+  abstract  = {This paper presents a new benchmark test dataset for multi-level complexity-controllable machine translation (MLCC-MT), which is MT controlling the complexity of the output at more than two levels. In previous research, MLCC-MT models have been evaluated on a test dataset automatically constructed from the Newsela corpus, which is a document-level comparable corpus with document-level complexity. The existing test dataset has the following three problems: (i) A source language sentence and its target language sentence are not necessarily an exact translation pair because they are automatically detected. (ii) A target language sentence and its simplified target language sentence are not necessarily exactly parallel because they are automatically aligned. (iii) A sentence-level complexity is not necessarily appropriate because it is transferred from an article-level complexity attached to the Newsela corpus. Therefore, we create a benchmark test dataset for Japanese-to-English MLCC-MT from the Newsela corpus by introducing an automatic filtering of data with inappropriate sentence-level complexity, manual check for parallel target language sentences with different complexity levels, and manual translation. Moreover, we implement two MLCC-NMT frameworks with a Transformer architecture and report their performance on our test dataset as baselines for future research. Our test dataset and codes are released.},
+  url       = {https://aclanthology.org/2022.lrec-1.726}
+}
+```
