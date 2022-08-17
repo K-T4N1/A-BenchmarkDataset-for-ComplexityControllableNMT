@@ -2,6 +2,9 @@
 
 - This repository contains the code and resources for multi-level complexity-controllable MT.
 - Multi-level complexity-controllable MT is MT controlling the complexity of the output at three or more levels.
+- This dataset is based on [Newsela data](https://newsela.com/data/).
+In accordance with our contract, we have applied to Newsela for permission to publish the dataset.
+Please wait until the permission is granted.
 
 ## Repo Structure
 
